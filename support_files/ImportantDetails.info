@@ -1,0 +1,23 @@
+Installation
+------------
+npm init -y
+npm install bcrypt express jsonwebtoken mongoose nodemon
+
+Execution
+---------
+node .\src\index.js [http://localhost:3015/]
+npm run dev
+
+Nodemon Set Up
+--------------
+1) On "package.json", at "scripts", add "dev": "nodemon src/index.js"
+2) npm run dev
+
+MongoDB
+-------
+https://cloud.mongodb.com/
+Free Cluster >> Using "lalamaesp@yahoo.com"
+UID: admin // PWD:passwordpwd
+Copied Connection String: mongodb+srv://admin:<password>@cluster0.g2aos.mongodb.net/<dbname>?retryWrites=true&w=majority
+    # <password> = passwordpwd
+    # <dbname> = test
